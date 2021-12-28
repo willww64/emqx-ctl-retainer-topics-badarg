@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  emqx:
+    image: emqx/emqx
+    hostname: emqx
+  mosquitto:
+    image: eclipse-mosquitto
+    entrypoint:
+      - sleep
+      - infinity
