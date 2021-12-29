@@ -2,7 +2,7 @@ version: '3'
 
 services:
   emqx:
-    image: emqx/emqx
+    image: emqx/emqx:4.3.11
     hostname: emqx
   mosquitto:
     image: eclipse-mosquitto
